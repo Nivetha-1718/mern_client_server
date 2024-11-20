@@ -1,0 +1,75 @@
+.listes{
+    display: flex;
+    flex-direction: column;
+    background-color: darkorchid;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 20px 0;
+    
+}
+.list input{
+    width: 75%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+   margin-right: 10px;
+    
+}
+.list button{
+    width: auto;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: aquamarine;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(24, 219, 154);
+    border-radius: 20px;
+    padding: 10px;
+}
+.fruit-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+
+.fruit-item h1{
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    flex: 1;
+}
+.fruit-item button{
+    background-color: rgb(255, 154, 23);
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.fruit-item button:hover{
+    background-color: rgb(139, 79, 0);
+}
